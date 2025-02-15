@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-export const IGusername: string = process.env.IGusername || "default_IGusername";
+export const IGusername: string = process.env.IGusername || "arcanedge.ai";
 export const IGpassword: string = process.env.IGpassword || "default_IGpassword";
 export const Xusername: string = process.env.Xusername || "default_Xusername";
 export const Xpassword: string = process.env.Xpassword || "default_Xpassword";
